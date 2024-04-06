@@ -1,0 +1,15 @@
+spring.application.name=microservice-email
+
+server.port=8080
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/ms-email
+spring.datasource.username=postgres
+spring.datasource.password=PASSWORD
+spring.jpa.hibernate.ddl-auto=update
+
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=*****@gmail.com // your email
+spring.mail.password=********** // generated with google in APp Passwords
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttles.enable=true
